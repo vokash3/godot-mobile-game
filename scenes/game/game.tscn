@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dul6dxsl0yoyn"]
+
+[ext_resource type="PackedScene" uid="uid://cbg2hpedrs8kf" path="res://elements/knife_shooter/knife_shooter.tscn" id="1_d0ial"]
+
+[node name="Game" type="Node2D"]
+
+[node name="KnifeShooter" parent="." instance=ExtResource("1_d0ial")]
+position = Vector2(347, 672)
